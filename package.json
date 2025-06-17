@@ -1,0 +1,29 @@
+{
+    "name": "api-clientes-dividas",
+    "version": "1.0.0",
+    "description": "API REST modularizada para cadastro de clientes, autenticação e consulta de dívidas",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "lint": "eslint .",
+        "format": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "Lucas Marino",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "jsonwebtoken": "^9.0.2",
+        "md5": "^2.3.0",
+        "mysql2": "^3.9.3",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "nodemon": "^3.1.0",
+        "prettier": "^3.2.5"
+    }
+}
